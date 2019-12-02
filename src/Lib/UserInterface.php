@@ -54,4 +54,6 @@ interface UserInterface
      * @return int
      */
     public function sendBigContent(string $content): int;
+
+    public function test();
 }
